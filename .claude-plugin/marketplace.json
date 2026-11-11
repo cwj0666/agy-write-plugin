@@ -1,13 +1,18 @@
 {
   "name": "agy-write",
-  "owner": { "name": "agy-write" },
-  "metadata": { "description": "agy-write 플러그인 배포용 마켓플레이스" },
+  "owner": {
+    "name": "agy-write"
+  },
+  "metadata": {
+    "description": "agy-write 플러그인 배포용 마켓플레이스"
+  },
   "plugins": [
     {
       "name": "agy-write",
       "source": "./",
       "description": "파일 안의 글(주석, docstring, 문서)을 Gemini(agy CLI)에 위임하고 커밋 직전에 위임 여부를 검사합니다.",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "license": "MIT"
     }
   ]
 }
