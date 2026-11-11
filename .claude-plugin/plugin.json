@@ -1,0 +1,6 @@
+{
+  "name": "agy-write",
+  "version": "1.0.0",
+  "description": "파일 안의 글(주석, docstring, 문서)을 Gemini(agy CLI)에 위임하고 커밋 직전에 위임 여부를 검사합니다.",
+  "keywords": ["writing", "docstring", "comments", "gemini", "agy", "commit-gate"]
+}

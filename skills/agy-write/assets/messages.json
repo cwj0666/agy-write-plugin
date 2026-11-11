@@ -1,0 +1,4 @@
+{
+  "commit_deny": "다음 파일의 표시된 줄은 agy-write 위임이 완료되지 않아 커밋을 차단합니다.\n\n{files}\n\n각 줄의 '파일:줄 범위'를 그대로 annotate.py 인자로 전달해 표시된 범위만 위임하고 git add로 다시 stage한 뒤 커밋을 다시 시도하십시오. 범위 밖의 글은 위임하지 않습니다. 사용자가 직접 작성한 글이라면 사용자 확인을 거친 뒤 'python3 {ledger} accept <파일 경로>' 명령으로 승인하십시오. 위임 대상에서 계속 제외할 경로는 .git/info/agy-write-ignore 파일에 적습니다.",
+  "prompt_context": "파일 안의 글은 agy-write로 위임해야 하며 커밋 직전에 완료 여부를 판정합니다."
+}
